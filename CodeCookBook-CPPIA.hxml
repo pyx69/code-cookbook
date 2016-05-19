@@ -1,0 +1,18 @@
+-lib markdown
+-lib hxtemplo
+-lib hxparse
+-cp src
+-cpp CodeCookBook.cppia
+-main Main
+-dce no
+-debug
+-D cppia
+-D analyzer
+
+--next
+
+-cp src
+-js assets/includes/js/highlighter.js
+-main Highlighter
+-dce full
+-D analyzer
